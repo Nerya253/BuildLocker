@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Env files
+.env
+.env.*
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+
+# Build outputs
+dist/
+build/
+coverage/
+dist-ssr/
+client/dist/
+client/build/
+client/coverage/
+client/dist-ssr/
+server/dist/
+server/build/
+server/coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local files
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
